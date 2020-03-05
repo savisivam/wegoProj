@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Shop Mobile</string>
+    <string name="title_home">Home</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+
+    //home fragment text
+    <string name="mobile">All Mobiles</string>
+    <string name="mobile_avail">Available now</string>
+    <string name="mobile_pics">Top picks for you</string>
+    <string name="website_text">Top websites</string>
+    <string name="sold_txt">The products are SOLD OUT !!!</string>
+    <string name="link_txt">View Link :</string>
+    <string name="save_txt">Save</string>
+
+</resources>

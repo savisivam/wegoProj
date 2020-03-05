@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:contentPadding="5dp"
+    card_view:cardElevation="7dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobilelist_layout">
+        <ImageView
+            android:id="@+id/phone_image"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_below="@+id/phone_image"
+            android:id="@+id/mobile_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:text="thhh"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_below="@+id/mobile_name"
+            android:id="@+id/mobile_price"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="ffgfg"
+            android:gravity="center"
+            android:textColor="#41A545"
+            android:textSize="17sp"
+            android:padding="5dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
